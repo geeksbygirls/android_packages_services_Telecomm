@@ -252,7 +252,6 @@ public class Ringer {
                     mVibrator.hasVibrator(), mSystemSettingsUtil.canVibrateWhenRinging(context),
                     ringerMode, mIsVibrating);
         }
-
         return shouldVibrate;
     }
 
